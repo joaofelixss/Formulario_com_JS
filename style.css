@@ -27,7 +27,6 @@ section {
 form {
   display: grid;
   justify-content: center;
-  gap: 10px;
   border-radius: 10px;
   padding: 80px;
   background: rgba(0, 0, 0, 0.7);
@@ -39,9 +38,15 @@ form h1 {
   margin-bottom: 40px;
 }
 
+div{
+  display: grid;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
 input {
+  display: block;
   padding: 20px;
-  margin-bottom: 20px;
   border-radius: 10px;
   border: none;
 }
@@ -62,13 +67,16 @@ input:focus-visible {
   font-weight: bold;
   position: absolute;
   right: 140px;
-  bottom: 30px;
+  bottom: 20px;
 }
 
 .submit:hover {
   background-color: #cf980c;
 }
 
-span {
+.span-requerid {
+  font-size: 12px;
+  margin: 3px 0 0 1px;
+  color: #e21;
   display: none;
 }
