@@ -9,7 +9,7 @@ A aplicação consiste em um formulário com validação em Javascript.
 </div>
 
 # Tecnologias utilizadas
-[![My Skills](https://skillicons.dev/icons?i=git,github,html,css,js,figma)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=git,github,html,css,js)](https://skillicons.dev)
 
 # Autor
 
